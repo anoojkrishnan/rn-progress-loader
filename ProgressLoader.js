@@ -70,7 +70,7 @@ export default class ProgressLoader extends React.Component {
             this.props.isLottie ? 
             <LottieView
                     style={styles.lottieView}
-                    source={require('bluewings_loader.json')}
+                    source={require('./bluewings_loader.json')}
                     loop={true}
                     speed={0.8}
                     autoPlay={true}
